@@ -20,7 +20,7 @@
 
 .main::before {
     content: '';
-    background-image: url(/assets/img/Group\ 49.svg);
+    background-image: url(../img/Group\ 49.svg);
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -34,7 +34,7 @@
 
 .main::after {
     content: '';
-    background-image: url(/assets/img/Group\ 49.svg);
+    background-image: url(../img/Group\ 49.svg);
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
