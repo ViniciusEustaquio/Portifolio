@@ -1,0 +1,75 @@
+
+.arcodeon .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+}
+
+.arcodeon .skills .tools {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.arcodeon .skills .tools img {
+
+    width: 3rem;
+    flex-wrap: wrap;
+}
+
+
+.arcodeon .skills h3 {
+
+    font-size: 1.5rem;
+    
+  
+}
+
+.arcodeon .skills .tools .icone {
+
+    display: flex;
+    flex-direction: row;
+    list-style: none; 
+}
+
+.arcodeon .skills .tools li {
+
+    margin-right: .5rem;
+
+}
+
+
+.arcodeon .skills .personal li {
+    margin: 1rem;
+}
+
+@media screen and (min-width:768px) {
+
+    .arcodeon .skills {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
+
+
+.arcodeon .skills .tools img {
+
+    width: 4rem;
+    margin-top: 1rem;
+    
+}
+
+.arcodeon .skills .tools .icone {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 200px;    
+}
+
+    
+}
